@@ -1,0 +1,183 @@
+object Form1: TForm1
+  Left = 102
+  Height = 264
+  Top = 417
+  Width = 1063
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsNone
+  Caption = '-> SNAKE <-'
+  ClientHeight = 264
+  ClientWidth = 1063
+  Color = 5808258
+  KeyPreview = True
+  OnCreate = FormCreate
+  OnKeyUp = FormKeyUp
+  OnPaint = FormPaint
+  LCLVersion = '1.4.4.0'
+  object PaintBox1: TPaintBox
+    Left = 0
+    Height = 168
+    Top = 40
+    Width = 224
+    ParentColor = False
+    OnPaint = PaintBox1Paint
+  end
+  object lblPoints: TLabel
+    Left = 8
+    Height = 42
+    Top = 8
+    Width = 129
+    Caption = 'Points: 0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -33
+    Font.Name = 'AR BERKLEY'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblLives: TLabel
+    Left = 168
+    Height = 40
+    Top = 8
+    Width = 104
+    Caption = 'Lives: 3'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -33
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblPause: TLabel
+    Left = 472
+    Height = 40
+    Top = 112
+    Width = 408
+    Caption = 'PAUSE - press P to continue'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -33
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+    Visible = False
+  end
+  object lblLevel: TLabel
+    Left = 304
+    Height = 40
+    Top = 8
+    Width = 102
+    Caption = 'Level: 1'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -33
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblSnakeTimer: TLabel
+    Left = 768
+    Height = 42
+    Top = -2
+    Width = 183
+    Caption = 'SnakeTimer'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -33
+    Font.Name = 'AR BERKLEY'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblTarget: TLabel
+    Left = 480
+    Height = 52
+    Top = 24
+    Width = 178
+    Caption = 'Target: 0'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -40
+    Font.Name = 'AR BERKLEY'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblInfo1: TLabel
+    Left = 8
+    Height = 36
+    Top = 160
+    Width = 304
+    Caption = 'Press F1 to show Menu'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -30
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblInfo2: TLabel
+    Left = 870
+    Height = 42
+    Top = 191
+    Width = 403
+    Caption = 'Press N to start New Game'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clWhite
+    Font.Height = -33
+    Font.Name = 'AR BERKLEY'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object lblGameInfo: TLabel
+    Left = 12
+    Height = 28
+    Top = 53
+    Width = 30
+    Caption = '***'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -23
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsUnderline]
+    ParentColor = False
+    ParentFont = False
+  end
+  object GameTimer: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = GameTimerTimer
+    left = 776
+    top = 120
+  end
+  object SnakeTimer: TTimer
+    Enabled = False
+    OnTimer = SnakeTimerTimer
+    left = 696
+    top = 216
+  end
+end

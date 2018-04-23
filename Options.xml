@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OPTIONS>
+  <Target>1</Target>
+  <PenetrateBoarders>False</PenetrateBoarders>
+  <StartLivesAmount>3</StartLivesAmount>
+  <BoardWidth>43</BoardWidth>
+  <BoardHeight>28</BoardHeight>
+  <TileWidth>24</TileWidth>
+  <TileHeight>24</TileHeight>
+</OPTIONS>

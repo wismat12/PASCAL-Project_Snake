@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="SnakeProject"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <StringTable ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="1">
+      <Item1>
+        <PackageName Value="LCL"/>
+      </Item1>
+    </RequiredPackages>
+    <Units Count="14">
+      <Unit0>
+        <Filename Value="SnakeProject.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="tile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Tile"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="option.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Option"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="fruit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Fruit"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="wall.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Wall"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="level.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Level"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="snake.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Snake"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="game.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Game"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="fruitkind.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="FruitKind"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="menu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Menu"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="highscore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="HighScore"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="dialoghelp.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form3"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="DialogHelp"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="lostlive.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form4"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="LostLive"/>
+      </Unit13>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="SnakeProject"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

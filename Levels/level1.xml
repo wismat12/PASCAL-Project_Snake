@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<LEVEL>
+  <LevelNumber>1</LevelNumber>
+  <StartPoints>0</StartPoints>
+  <StartSpeed>640</StartSpeed>
+  <StartLength>3</StartLength>
+  <StartLocationX>21</StartLocationX>
+  <StartLocationY>13</StartLocationY>
+  <StartMoveDirection>up</StartMoveDirection>
+  <InitialDrawDirection>down</InitialDrawDirection>
+  <BackgroundPath>Images\BG1.png</BackgroundPath>
+  <MaxWall>44</MaxWall>
+  <MaxFruit>8</MaxFruit>
+  <Walls>
+	<Wall0><X>6</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall0>
+	<Wall1><X>6</X><Y>7</Y><Pic>Images\Wall1.png</Pic></Wall1>
+	<Wall2><X>6</X><Y>8</Y><Pic>Images\Wall1.png</Pic></Wall2>
+	<Wall3><X>6</X><Y>9</Y><Pic>Images\Wall1.png</Pic></Wall3>
+	<Wall4><X>6</X><Y>10</Y><Pic>Images\Wall1.png</Pic></Wall4>	
+	<Wall5><X>6</X><Y>11</Y><Pic>Images\Wall1.png</Pic></Wall5>
+	<Wall6><X>7</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall6>
+	<Wall7><X>8</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall7>
+	<Wall8><X>9</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall8>
+	<Wall9><X>10</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall9>	
+	<Wall10><X>11</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall10>
+	
+	<Wall11><X>6</X><Y>18</Y><Pic>Images\Wall1.png</Pic></Wall11>
+	<Wall12><X>6</X><Y>19</Y><Pic>Images\Wall1.png</Pic></Wall12>
+	<Wall13><X>6</X><Y>20</Y><Pic>Images\Wall1.png</Pic></Wall13>
+	<Wall14><X>6</X><Y>21</Y><Pic>Images\Wall1.png</Pic></Wall14>
+	<Wall15><X>6</X><Y>22</Y><Pic>Images\Wall1.png</Pic></Wall15>	
+	<Wall16><X>6</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall16>
+	<Wall17><X>7</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall17>
+	<Wall18><X>8</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall18>
+	<Wall19><X>9</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall19>
+	<Wall20><X>10</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall20>	
+	<Wall21><X>11</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall21>
+	
+	<Wall22><X>32</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall22>
+	<Wall23><X>33</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall23>
+	<Wall24><X>34</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall24>
+	<Wall25><X>35</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall25>
+	<Wall26><X>36</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall26>	
+	<Wall27><X>37</X><Y>6</Y><Pic>Images\Wall1.png</Pic></Wall27>
+	<Wall28><X>37</X><Y>7</Y><Pic>Images\Wall1.png</Pic></Wall28>
+	<Wall29><X>37</X><Y>8</Y><Pic>Images\Wall1.png</Pic></Wall29>
+	<Wall30><X>37</X><Y>9</Y><Pic>Images\Wall1.png</Pic></Wall30>
+	<Wall31><X>37</X><Y>10</Y><Pic>Images\Wall1.png</Pic></Wall31>	
+	<Wall32><X>37</X><Y>11</Y><Pic>Images\Wall1.png</Pic></Wall32>
+	
+	<Wall33><X>32</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall33>
+	<Wall34><X>33</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall34>
+	<Wall35><X>34</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall35>
+	<Wall36><X>35</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall36>
+	<Wall37><X>36</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall37>	
+	<Wall38><X>37</X><Y>18</Y><Pic>Images\Wall1.png</Pic></Wall38>
+	<Wall39><X>37</X><Y>19</Y><Pic>Images\Wall1.png</Pic></Wall39>
+	<Wall40><X>37</X><Y>20</Y><Pic>Images\Wall1.png</Pic></Wall40>
+	<Wall41><X>37</X><Y>21</Y><Pic>Images\Wall1.png</Pic></Wall41>
+	<Wall42><X>37</X><Y>22</Y><Pic>Images\Wall1.png</Pic></Wall42>	
+	<Wall43><X>37</X><Y>23</Y><Pic>Images\Wall1.png</Pic></Wall43>
+
+
+	
+  </Walls>
+  <Fruits>
+	<Fruit0><X>10</X><Y>10</Y><Pic>Images\fruitIncreasePoints.png</Pic><Kind>IncPoints</Kind><visible>true</visible><DispTimeLeft>200</DispTimeLeft></Fruit0>
+	<Fruit1><X>11</X><Y>11</Y><Pic>Images\fruitIncreaseSpeed.png</Pic><Kind>IncSpeed</Kind><visible>false</visible><DispTimeLeft>100</DispTimeLeft></Fruit1>
+	<Fruit2><X>12</X><Y>12</Y><Pic>Images\fruitIncreaseLive.png</Pic><Kind>IncLives</Kind><visible>false</visible><DispTimeLeft>50</DispTimeLeft></Fruit2>
+	<Fruit3><X>13</X><Y>13</Y><Pic>Images\fruitIncreaseLength.png</Pic><Kind>IncLength</Kind><visible>false</visible><DispTimeLeft>70</DispTimeLeft></Fruit3>
+	<Fruit4><X>14</X><Y>14</Y><Pic>Images\fruitDecreasePoints.png</Pic><Kind>DecPoints</Kind><visible>false</visible><DispTimeLeft>10</DispTimeLeft></Fruit4>
+	<Fruit5><X>15</X><Y>15</Y><Pic>Images\fruitDecreaseSpeed.png</Pic><Kind>DecSpeed</Kind><visible>false</visible><DispTimeLeft>20</DispTimeLeft></Fruit5>
+	<Fruit6><X>16</X><Y>16</Y><Pic>Images\fruitDecreaseLive.png</Pic><Kind>DecLives</Kind><visible>false</visible><DispTimeLeft>30</DispTimeLeft></Fruit6>
+	<Fruit7><X>17</X><Y>17</Y><Pic>Images\fruitDecreaseLength.png</Pic><Kind>DecLength</Kind><visible>false</visible><DispTimeLeft>40</DispTimeLeft></Fruit7>
+  </Fruits>
+</LEVEL>

@@ -1,0 +1,279 @@
+object Form2: TForm2
+  Left = 382
+  Height = 602
+  Top = 1
+  Width = 302
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsNone
+  Caption = 'Options'
+  ClientHeight = 602
+  ClientWidth = 302
+  DragMode = dmAutomatic
+  OnCreate = FormCreate
+  OnPaint = FormPaint
+  Position = poScreenCenter
+  LCLVersion = '1.4.4.0'
+  object lbHighScores: TListBox
+    Left = 11
+    Height = 176
+    Top = 248
+    Width = 283
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Height = -13
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ItemHeight = 0
+    ParentFont = False
+    TabOrder = 0
+  end
+  object lblHighScores: TLabel
+    Left = 112
+    Height = 20
+    Top = 224
+    Width = 78
+    Caption = 'High Scores'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object cbAllowPassingThroughBoarders: TCheckBox
+    Left = 32
+    Height = 24
+    Top = 24
+    Width = 231
+    Caption = 'Allow passing through borders'
+    Checked = True
+    Color = clSilver
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+    State = cbChecked
+    TabOrder = 1
+  end
+  object ebStartLivesAmount: TEdit
+    Left = 11
+    Height = 28
+    Top = 72
+    Width = 80
+    Color = clNone
+    TabOrder = 2
+    Text = '3'
+  end
+  object lblStartLivesAmount: TLabel
+    Left = 11
+    Height = 20
+    Top = 48
+    Width = 125
+    Caption = 'Start lives amount'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object ebBoardWidth: TEdit
+    Left = 48
+    Height = 28
+    Top = 128
+    Width = 80
+    TabOrder = 3
+    Text = '30'
+  end
+  object lblBoardWidth: TLabel
+    Left = 51
+    Height = 20
+    Top = 112
+    Width = 85
+    Caption = 'Board width'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object ebBoardHeight: TEdit
+    Left = 168
+    Height = 28
+    Top = 128
+    Width = 80
+    TabOrder = 4
+    Text = '30'
+  end
+  object lblBoardHeight: TLabel
+    Left = 168
+    Height = 20
+    Top = 112
+    Width = 89
+    Caption = 'Board Height'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object ebTileWidth: TEdit
+    Left = 48
+    Height = 28
+    Top = 184
+    Width = 80
+    TabOrder = 5
+    Text = '24'
+  end
+  object lblTileWidth: TLabel
+    Left = 48
+    Height = 20
+    Top = 168
+    Width = 70
+    Caption = 'Tile width'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object ebTileHeight: TEdit
+    Left = 168
+    Height = 28
+    Top = 184
+    Width = 80
+    TabOrder = 6
+    Text = '24'
+  end
+  object lblTileHeight: TLabel
+    Left = 168
+    Height = 20
+    Top = 168
+    Width = 73
+    Caption = 'Tile height'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object btnSave: TButton
+    Left = 56
+    Height = 25
+    Top = 440
+    Width = 200
+    Caption = 'Save and start new game'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = btnSaveClick
+    ParentFont = False
+    TabOrder = 7
+  end
+  object btnCancel: TButton
+    Left = 107
+    Height = 25
+    Top = 472
+    Width = 91
+    Caption = 'Cancel'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = btnCancelClick
+    ParentFont = False
+    TabOrder = 8
+  end
+  object btnHelp: TButton
+    Left = 107
+    Height = 25
+    Top = 512
+    Width = 91
+    Caption = 'Help'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = btnHelpClick
+    ParentFont = False
+    TabOrder = 9
+  end
+  object btnExit: TButton
+    Left = 107
+    Height = 25
+    Top = 552
+    Width = 91
+    Caption = 'Exit'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = btnExitClick
+    ParentFont = False
+    TabOrder = 10
+  end
+  object ebTarget: TEdit
+    Left = 208
+    Height = 28
+    Top = 72
+    Width = 80
+    TabOrder = 11
+    Text = '10'
+  end
+  object LblTarget: TLabel
+    Left = 209
+    Height = 20
+    Top = 48
+    Width = 79
+    Caption = 'Your Target'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clRed
+    Font.Height = -17
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object LblSnake: TLabel
+    Left = 112
+    Height = 32
+    Top = 0
+    Width = 75
+    Caption = 'SNAKE'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clGreen
+    Font.Height = -27
+    Font.Name = 'AR BLANCA'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+end
